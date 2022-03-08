@@ -1,0 +1,53 @@
+{
+    
+  "UPDATED_abt-buy": {
+	"ext_name": "leipzig_abt_buy",
+        "domain": "product",
+        "primattr": "name_relaxed_jaccard",
+        "index": "",
+        "window": 0,
+	"related works": "[1], [4], [7], [9], [11]",
+	"included_negatives": false
+
+
+    },
+
+    "UPDATED_amazon-google": {
+	"ext_name": "leipzig_amazon_google",
+        "domain": "product",
+        "primattr": "name_relaxed_jaccard",
+        "index": "",
+        "window": 0,
+	"related works": "[1], [2], [4], [6], [8], [9], [11]",
+	"included_negatives": false
+
+
+    },
+     "UPDATED_headphones": {
+	"ext_name":"wdc_headphones",
+        "domain": "product",
+        "primattr": "model_token_jaccard",
+        "index": "",
+        "window": 1,
+	"related works": "[13]"
+    },
+    "UPDATED_phones": {
+	"ext_name":"wdc_phones",
+        "domain": "product",
+        "primattr": "phone_type_token_jaccard",
+        "index": "",
+        "window": 1,
+	"related works": "[13]"
+    },
+    "UPDATED_tvs": {
+	"ext_name":"wdc_tvs",
+        "domain": "product",
+        "primattr": "model_token_jaccard",
+        "index": "",
+        "window": 1,
+	"related works": "[13]"
+    }
+
+
+
+}
